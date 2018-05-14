@@ -35,6 +35,8 @@ node_modules
 ### Bower ###
 **/bower_components/
 
-
 ### PhPStorm ###
 .idea/
+
+### Chatterbox Client (Stuff not related to the server) ###
+client/
