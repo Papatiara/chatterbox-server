@@ -43,7 +43,7 @@ var requestHandler = function(request, response) {
     response.writeHead(200, corsHeaders);
     response.end('OPTIONS REQUEST SERVED');
   default:  
-    response.writeHead(400, corsHeaders);
+    response.writeHead(404, corsHeaders);
     response.end('BAD REQUEST');
   }
   

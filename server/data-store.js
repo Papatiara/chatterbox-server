@@ -4,8 +4,8 @@ var dataStore = {
     data.createdAt = new Date();
     this._results.push(data);
   },
-  getAll: function() { return {results: this._results}; },
-  _results: [],
+ getAll: function() { return {results: this._results}},
+  _results: [{username: 'Jono', roomname: 'Lobby', text: 'Do my bidding!'}],
 };
 
 exports.dataStore = dataStore;

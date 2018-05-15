@@ -20,8 +20,9 @@ var _handleDefaultRequest = function(response) {
   var headers = corsHeaders;
   headers['Content-Type'] = 'text/html';
   // Send 201 Created
-  response.writeHead(200, corsHeaders);
+  response.writeHead(404, corsHeaders);
   
+
   // Make sure to always call response.end() - Node may not send
   // anything back to the client until you do. The string you pass to
   // response.end() will be the body of the response - i.e. what shows
